@@ -1,0 +1,150 @@
+.fontclr2{
+    color: #EE662A;
+}
+.fontclr{
+    color: #12133d;
+}
+/* Nav color */
+.fontclr3{
+    color: #ffa800;
+}
+.bgclr{
+    background-color: #12133d;
+}
+.bgclr2{
+    background-color: #EE662A;
+}
+.gradientbg{
+    background: rgb(18,19,61);
+    background: linear-gradient(93deg, rgba(18,19,61,1) 9%, rgba(57,59,123,1) 95%);
+}
+.urban{
+    font-family: 'Urbanist', sans-serif;
+}
+.mulish{
+    font-family: 'Mulish', sans-serif;
+}
+.transi{
+    transition: 1.1s;
+}
+.right-corner{
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    width: 30px;
+    height: 30px;
+    background-color: #EE662A;
+    /* float: right; */
+}
+.left-corner{
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(18,19,61);
+    /* float: left;     */
+}
+.homeblog{
+    background-image: url(../Assest/bgBlog.webp);
+    background-position: center;
+    background-size: cover;
+}
+.newsbg{
+    background-image: url(../Assest/News.webp);
+    background-size: cover;
+}
+.borderbottom{
+    box-shadow: 0px 2px 0px 0px #EE662A;
+}
+.colored-border {
+    border-bottom: 2px solid rgb(18,19,61);
+    outline: none;
+    background: transparent; /* Replace #ff0000 with your desired color code */
+    padding-bottom: 10px; /* Optional: Add padding to create space between content and border */
+  }
+.colored-border::placeholder{
+    color: #12133d;
+
+}
+.boxcreation{
+    border: 6px solid #12133d;
+    z-index: 1;
+}
+.scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.pagination{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 10px;
+    margin-top: 5rem;
+  }
+  .pagination .page-num{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    text-decoration: none;
+    color: blue;
+    font-weight: 200;
+    /* transition: 1s; */
+    border-radius: 50%;
+    /* background-color: rgb(109,40,217); */
+  }
+  .pagination .page-num:hover{
+    background-color: #ffa800;
+    color: white;
+    transition: 0.8s;
+  
+  }
+  .pagination .active{
+    background-color: #ffa800;
+    color: white;
+  }
+  #opchi{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+#opchi:hover{
+    opacity: 1;
+}
+#opchi>*{
+    transform: translateY(20px);
+    transition: 0.5s;
+}
+#opchi:hover>*{
+    transform: translateY(0px);
+}
+
+.industrybanner{
+    background-image: url(../Assest/IndustriesBanner.webp);
+    height: 400px;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.blogbg{
+    background-image: url(../Assest/blogBanner1.jpeg);
+    height: 400px;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+
+}
+@media (min-width:1000px) {
+    .contectbtn{
+        background-color: #ffa800;
+        color: white;
+    }
+    .contectbtn:hover{
+        background-color: #12133d;
+    }
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
